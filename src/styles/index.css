@@ -1,3 +1,4 @@
+
 .stick{
     height: 100px;
     width: 13px;
@@ -10,27 +11,47 @@
     padding: 10px;
     border-radius: 10px;
     margin: auto;
-  }
+}
+.container{
+  height: 510px;
+}
+.light {
+  width: 85px;
+  height: 85px;
+  margin: 9px auto;
+  border-radius: 50%;
+  
+}
 
-  .light {
-    width: 85px;
-    height: 85px;
-    margin: 9px auto;
-    border-radius: 50%;
-    
-  }
+.button-violet{
+  justify-content: center;
+  background-color: rgb(153, 72, 230);
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 5px 15px;
+}
+.button-random{
+  justify-content: center;
+  background-color: rgb(44, 143, 255);
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 5px 15px;
+}
 
-  .red {
-    background-color: red;
-  }
+.red {
+  background-color: red;
+}
 
-  .yellow {
-    background-color: yellow;
-  }
+.yellow {
+  background-color: yellow;
+}
 
-  .green {
-    background-color: green;
-  }
-  .selected{
-    box-shadow: 0px 0px 20px 20px rgb(233, 220, 102)
-  }
+.green {
+  background-color: green;
+}
+.violet{
+  background-color: rgb(153, 72, 230);
+}
+.selected{
+  box-shadow: 0px 0px 20px 20px rgb(233, 220, 102)
+}
